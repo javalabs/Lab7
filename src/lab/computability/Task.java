@@ -11,6 +11,6 @@ public class Task implements Runnable {
     }
     @Override
     public void run() {
-        year.Verify();
+        year.verify();
     }
 }

@@ -9,24 +9,25 @@ import java.util.Scanner;
  * Created by AdminPC on 20.02.14.
  */
 public class Handle implements Runnable {
-    private LeapYear year;
-    private int y;
+    private LeapYear year1;
+    private LeapYear year2;
+
     public int inputData() {
         Scanner scan = new Scanner(System.in);
         int temp;
         while(true)
-        try {
-            System.out.print("Enter year\n>>> ");
-            temp =  scan.nextInt();
-            break;
-        } catch (Exception e) {
-            System.out.println("Exception. Try Again...");
-            scan.nextLine();
-        }
+            try {
+                System.out.print("Enter year\n>>> ");
+                temp =  scan.nextInt();
+                break;
+            } catch (Exception e) {
+                System.out.println("Exception. Try Again...");
+                scan.nextLine();
+            }
         return temp;
     }
 
-    public void displayData(boolean isLeap) {
+    public void displayData(int y, boolean isLeap) {
         if(isLeap)
             System.out.println("" + y + " - leap year");
         else
@@ -36,15 +37,21 @@ public class Handle implements Runnable {
 
     @Override
     public void run() {
-        y = inputData();
-        year = new LeapYear(y);
-        Thread compute = new Thread(new Task(year));
-        compute.start();
-        try {
-            compute.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        displayData(year.getLeapYear());
+        year1 = new LeapYear();
+        year2 = new LeapYear();
+
+        Thread compute1 = new Thread(new Task(year1));
+        Thread compute2 = new Thread(new Task(year2));
+
+        compute1.start();
+        compute2.start();
+
+
+        year1.setYear(inputData());
+        year2.setYear(inputData());
+
+
+        displayData(year1.getYear(), year1.getLeapYear());
+        displayData(year2.getYear(), year2.getLeapYear());
      }
 }
