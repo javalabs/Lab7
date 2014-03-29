@@ -4,9 +4,9 @@ package lab.computability;
  * Created by AdminPC on 27.02.14.
  */
 public class Task implements Runnable {
-    private LeapYear year;
+    private Verifiable year;
 
-    public Task(LeapYear year) {
+    public Task(Verifiable year) {
         this.year = year;
     }
     @Override

@@ -64,22 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LeapYear.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab/yegorov/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="21" selection-start="122" selection-end="122" vertical-scroll-proportion="-0.82312924" vertical-offset="596" max-vertical-offset="1184">
-              <folding>
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab/computability/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="21" selection-start="132" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
+            <state line="32" column="3" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="968">
               <folding />
             </state>
           </provider>
@@ -88,16 +76,25 @@
       <file leaf-file-name="Handle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab/control/Handle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="960">
+            <state line="39" column="25" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="674" max-vertical-offset="1738">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab/yegorov/Main.java">
+      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab/computability/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="688">
+            <state line="6" column="27" selection-start="134" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeapYear.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.41156462" vertical-offset="858" max-vertical-offset="1540">
               <folding />
             </state>
           </provider>
@@ -116,8 +113,9 @@
         <option value="$PROJECT_DIR$/src/lab/computability/Verification.java" />
         <option value="$PROJECT_DIR$/src/lab/yegorov/Main.java" />
         <option value="$PROJECT_DIR$/src/lab/computability/Task.java" />
-        <option value="$PROJECT_DIR$/src/lab/control/Handle.java" />
+        <option value="$PROJECT_DIR$/src/lab/computability/Verifiable.java" />
         <option value="$PROJECT_DIR$/src/lab/computability/LeapYear.java" />
+        <option value="$PROJECT_DIR$/src/lab/control/Handle.java" />
       </list>
     </option>
   </component>
@@ -424,6 +422,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0142684f-19dc-4ab4-a858-d53010716c4f" name="Default" comment="" />
@@ -432,8 +447,28 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -447,7 +482,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -457,8 +492,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -507,13 +542,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab/control/Handle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="1386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/computability/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="484">
@@ -524,10 +552,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="38" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="1166" max-vertical-offset="1430">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,10 +580,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="10" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1024">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,10 +608,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="232" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1088">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,10 +636,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="232" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1088">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -648,10 +664,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="232" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1088">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -679,10 +692,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="232" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1088">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -710,10 +720,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="9" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,10 +748,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="7" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="902" max-vertical-offset="1078">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,10 +776,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="7" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -803,10 +804,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="24" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="464">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -834,10 +832,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="24" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="464">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -858,10 +853,7 @@
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="5" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="336">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -870,37 +862,68 @@
         <state line="502" column="0" selection-start="23174" selection-end="23174" vertical-scroll-proportion="-0.6632124" vertical-offset="7920" max-vertical-offset="8592" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/computability/Verifiable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.2993197" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/yegorov/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="688">
+        <state line="32" column="3" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="968">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/control/Handle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="960">
+        <state line="39" column="25" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="674" max-vertical-offset="1738">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/computability/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="132" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
+        <state line="6" column="27" selection-start="134" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/computability/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="122" selection-end="122" vertical-scroll-proportion="-0.82312924" vertical-offset="596" max-vertical-offset="1184">
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+        <state line="54" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.41156462" vertical-offset="858" max-vertical-offset="1540">
+          <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Yegorov</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

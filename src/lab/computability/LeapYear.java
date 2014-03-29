@@ -1,11 +1,10 @@
 package lab.computability;
 
-import java.io.Serializable;
-
 /**
  * Created by AdminPC on 20.02.14.
  */
-public class LeapYear {
+
+public class LeapYear implements Verifiable {
     private int year;
     private boolean isLeapYear = false;
     private boolean isReady = false;
@@ -19,6 +18,7 @@ public class LeapYear {
 
     }
 
+    @Override
     public void verify() {
         synchronized (locker) {
             while(!isReady)
@@ -40,9 +40,8 @@ public class LeapYear {
         }
     }
 
-
     public boolean getLeapYear() {
-            return isLeapYear;
+        return isLeapYear;
     }
 
     public int getYear() {
@@ -50,7 +49,6 @@ public class LeapYear {
     }
 
     public void setYear(int year) {
-
         synchronized (locker) {
             this.year = year;
             isReady = true;

@@ -53,5 +53,24 @@ public class Handle implements Runnable {
 
         displayData(year1.getYear(), year1.getLeapYear());
         displayData(year2.getYear(), year2.getLeapYear());
+
+        /*
+        LeapYear[] y = new LeapYear[20];
+        Thread[] c = new Thread[20];
+
+        for(int i = 0; i < y.length; ++i) {
+            y[i] = new LeapYear();
+            c[i] = new Thread(new Task(y[i]));
+            c[i].start();
+        }
+
+        for(int i = 0, iy = 2000; i < y.length; ++i, ++iy) {
+            y[i].setYear(iy);
+        }
+
+        for(int i = 0; i < y.length; ++i) {
+            displayData(y[i].getYear(),y[i].getLeapYear());
+        }
+        */
      }
 }

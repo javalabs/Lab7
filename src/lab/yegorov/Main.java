@@ -1,3 +1,11 @@
+/*
+ *
+ *  This is the source code
+ *  It is licensed under GNU GPL v. 2 or later.
+ *
+ *  Copyright Artem Yegorov, 2014.
+ *
+ */
 package lab.yegorov;
 
 
